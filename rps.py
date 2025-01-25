@@ -19,6 +19,7 @@ class Player:
         pass
 
 
+
 class AllRockPlayer(Player):
 
     def __init__(self):
@@ -26,6 +27,7 @@ class AllRockPlayer(Player):
 
     def get_choice(self):
         return 'rock'
+
 
 
 class RandomPlayer(Player):
@@ -40,6 +42,7 @@ class RandomPlayer(Player):
 
     def moveplay(self):
         return self.p2
+
 
 
 class HumanPlayer(Player):
